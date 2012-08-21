@@ -1,0 +1,28 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.sidebar-nav {
+	padding: 9px 0;
+}
+
+.table th a {
+	display: inline-block;
+	padding-left: 12px;
+	background: transparent url(../../img/admin/sort-icons.png) no-repeat 0 5px;
+}
+.table th a.asc {
+	background-position: 0 -22px;
+}
+.table th a.desc {
+	background-position: 0 -54px;
+}
+
+.medical-condition td > dl > dt {
+	font-size: 1.1em;
+}
+.medical-condition .score {
+	font-size: 0.9em;
+	font-weight: normal;
+	padding-left: 15px;
+}
